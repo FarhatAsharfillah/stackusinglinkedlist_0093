@@ -71,3 +71,10 @@ public:
         return top == NULL; // Return true if the top pointer is NULL, indicating an Empty stack
     }
 };
+
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int value;
